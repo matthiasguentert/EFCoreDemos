@@ -1,17 +1,16 @@
-﻿using System.Collections.ObjectModel;
-using EFCoreEvents.Data;
-
-namespace EFCoreEvents.Model;
+﻿namespace EFCoreEvents.Model;
 
 public class Blog : IHasTimestamps
 {
-    public virtual int BlogId { get; set; }
+    public int BlogId { get; set; }
 
-    public virtual string Url { get; set; }
+    public string Url { get; set; }
 
-    public virtual IList<Post> Posts { get; } = new ObservableCollection<Post>();
+    public IList<Post> Posts { get; set; }
     
     public DateTime? Added { get; set; }
+    
     public DateTime? Deleted { get; set; }
+    
     public DateTime? Modified { get; set; }
 }

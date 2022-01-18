@@ -38,15 +38,15 @@ public class TestDbContext : DbContext
         
         switch (e.Entry.State)
         {
-            case EntityState.Deleted:
+            case EntityState.Deleted: // fire notification
                 entityWithTimestamps.Deleted = DateTime.UtcNow;
                 Console.WriteLine($"Stamped for delete: {e.Entry.Entity}");
                 break;
-            case EntityState.Modified:
+            case EntityState.Modified: // fire notification
                 entityWithTimestamps.Modified = DateTime.UtcNow;
                 Console.WriteLine($"Stamped for update: {e.Entry.Entity}");
                 break;
-            case EntityState.Added:
+            case EntityState.Added: 
                 entityWithTimestamps.Added = DateTime.UtcNow;
                 Console.WriteLine($"Stamped for insert: {e.Entry.Entity}");
                 break;

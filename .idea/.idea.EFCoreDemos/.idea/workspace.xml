@@ -12,19 +12,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68264c03-7169-43b1-a3ae-0537ccbb0ab9" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/EFCoreEvents/Controllers/BlogsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EFCoreEvents/Controllers/PostsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EFCoreEvents/Data/TestDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EFCoreEvents/Model/Blog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EFCoreEvents/Model/Post.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCoreDemos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreDemos.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChangeTrackingProxies/Data/TestDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChangeTrackingProxies/Data/TestDbContext.cs" afterDir="false" />
+    <list default="true" id="68264c03-7169-43b1-a3ae-0537ccbb0ab9" name="Changes" comment="Added new project">
+      <change beforePath="$PROJECT_DIR$/src/EFCoreEvents/Data/TestDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreEvents/Data/TestDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreEvents/Model/Blog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreEvents/Model/Blog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreEvents/Model/IHasTimestamps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreEvents/Model/IHasTimestamps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreEvents/Model/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreEvents/Model/Post.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3685646f2f29e671aaf1cda7eb01c84daaec2ae61820d2c444edc3121d696/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4c45c4bf7026d72d928785ecf40e77482fcb66cbf7edc2a8fa5f9f417da44c/ChangeTracker.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -147,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642515986808</updated>
-      <workItem from="1642515987551" duration="4935000" />
+      <workItem from="1642515987551" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1642520495690</created>
@@ -156,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642520495690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added new project">
+      <created>1642522017713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642522017713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new project" />
   </component>
 </project>
