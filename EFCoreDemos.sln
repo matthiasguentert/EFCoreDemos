@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationEntities", "src\NotificationEntities\NotificationEntities.csproj", "{B64636EF-FA73-46E9-B6BE-728A5776EED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTrackingProxies", "src\ChangeTrackingProxies\ChangeTrackingProxies.csproj", "{83A665D7-CE9F-4B5C-B651-F5F3F9FB89E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64636EF-FA73-46E9-B6BE-728A5776EED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64636EF-FA73-46E9-B6BE-728A5776EED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64636EF-FA73-46E9-B6BE-728A5776EED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64636EF-FA73-46E9-B6BE-728A5776EED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A665D7-CE9F-4B5C-B651-F5F3F9FB89E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A665D7-CE9F-4B5C-B651-F5F3F9FB89E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A665D7-CE9F-4B5C-B651-F5F3F9FB89E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A665D7-CE9F-4B5C-B651-F5F3F9FB89E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
