@@ -11,9 +11,6 @@ public class TestDbContext : DbContext
     
     protected override void OnModelCreating(ModelBuilder builder)
     {
-        // Making use of notification entities
-        builder.HasChangeTrackingStrategy(ChangeTrackingStrategy.ChangingAndChangedNotifications);        
-        
         var posts = new List<Post>
         {
             new Post { PostId = 1, BlogId = 1, Title = "Post1", Content = "Content" },
